@@ -23,7 +23,7 @@
       "LaraIzitoast\\" : "src/"
     },
     "files": [
-      "src/helpers.php"
+      "lara-izitoast/src/helpers.php"
     ]
   }
 }
