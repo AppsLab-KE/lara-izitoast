@@ -1,0 +1,22 @@
+{
+  "name": "appslabke/lara-izitoast",
+  "description": "beautiful laravel notification package for izitoast",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MARVIN COLLINS",
+      "email": "marvin@appslab.co.ke"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "LaraIzitoast\\" : "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
