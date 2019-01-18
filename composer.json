@@ -11,13 +11,6 @@
   ],
   "minimum-stability": "dev",
   "require": {},
-  "extra": {
-    "laravel": {
-      "providers": [
-        "LaraIzitoast\\LaraIzitoastServiceProvider"
-      ]
-    }
-  },
   "autoload": {
     "psr-4": {
       "LaraIzitoast\\" : "src/"
@@ -25,5 +18,12 @@
     "files": [
       "lara-izitoast/src/helpers.php"
     ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaraIzitoast\\LaraIzitoastServiceProvider"
+      ]
+    }
   }
 }
