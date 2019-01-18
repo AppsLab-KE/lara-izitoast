@@ -1,5 +1,5 @@
 # Lara-Izitoast for Laravel Notification (Still under development)
-This is a simple laravel notification package. It is still under development and guess what we have not added test too.
+This is a simple laravel notification package. It is still under development.
 
 ## How to use this package
 
@@ -50,5 +50,5 @@ Lara-Izitoast is distributed under the MIT license.
 
 ### Tests
 
-Real developers don't write test 
+Coming soon
 
