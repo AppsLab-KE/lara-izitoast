@@ -51,7 +51,7 @@ Add by npm ``` npm install izitoast --save```
 
 - Remember to add also font-awesome or Icomoon https://fontawesome.com/?from=io / https://icomoon.io/
 
-##Let's make a toast 
+## Let's make a toast 
 
 - Quick way to make a toast (notification)
 
