@@ -6,6 +6,10 @@ This is a laravel notification wrapper build with http://izitoast.marcelodolce.c
 
 ## How to use this package
 
+### Config
+
+- Change the configuration on lara-izitoast.php config dir.
+
 - Get the package via composer
 ``` bash 
 composer require appslabke/lara-izitoast
