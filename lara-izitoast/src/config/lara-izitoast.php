@@ -11,14 +11,15 @@ return [
     'messageColor' => 'blue',
     'titleSize' => '12',
     'messageSize' => '12',
-    'titleLineHeight' => '12',
-    'messageLineHeight' => '12',
+    'titleLineHeight' => '72',
+    'messageLineHeight' => '72',
     'theme' => 'black', //black, white
     'color' => '',
     'iconColor' => '',
     'zindex' => null,
     'closeOnClick' => true,
-    'timeout' => true,
+    'timeout' => 5000,
     'drag' => true,
+    'position' => 'bottomRight', //bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter or center.
     'progressBar' => true,
 ];
