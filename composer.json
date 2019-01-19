@@ -1,6 +1,6 @@
 {
   "name": "appslabke/lara-izitoast",
-  "description": "beautiful laravel notification package for izitoast",
+  "description": "Simplified wrapper for izitoast javascript notification library",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -10,7 +10,9 @@
     }
   ],
   "minimum-stability": "beta",
-  "require": {},
+  "require": {
+    "php": ">=5.6"
+  },
   "autoload": {
     "psr-4": {
       "LaraIzitoast\\" : "src/"

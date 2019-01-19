@@ -1,5 +1,5 @@
 # Lara-Izitoast : Laravel Notification Package
-This is a laravel notification package build on top of http://izitoast.marcelodolce.com/.
+This is a laravel notification wrapper build with http://izitoast.marcelodolce.com javascript library.
 
 ## How to use this package
 
@@ -25,9 +25,22 @@ Add by npm ``` npm install izitoast --save```
 
 - On your layout blade add the files
 
-``` <link href="{{ asset('css/iziToast.css') }}" rel="stylesheet">```
+``` 
+<head>
+   .....
+   <link href="{{ asset('css/iziToast.css') }}" rel="stylesheet">
+   .....
+</head>
+```
 
-``` <script src="{{ asset('js/iziToast.js') }}"></script>```
+``` 
+    <body>
+    .....
+    <script src="{{ asset('js/iziToast.js') }}"></script>
+    .....
+    <body/>
+    
+```
 
 - Include the package vendor file in Layout blade
 
@@ -60,7 +73,7 @@ or
    
  - And that's it.
 
-## Contributing
+## Contributing & License
 
 Lara-Izitoast is distributed under the MIT license.
 
