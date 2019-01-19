@@ -16,7 +16,9 @@ class LaraIzitoastServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/../views', 'lara-izitoast');
 
+
         $this->publishes([
+            __DIR__.'/config/lara-izitoast.php' => config_path('lara-izitoast.php'),
             __DIR__.'/../views' => base_path('resources/views/vendor/lara-izitoast')
         ]);
 
@@ -25,6 +27,10 @@ class LaraIzitoastServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerHelper();
+
+        $this->mergeConfigFrom(
+            __DIR__.'/config/lara-izitoast.php', 'lara-izitoast'
+        );
 
         $this->app->singleton('toast', function () {
             return new Toaster();

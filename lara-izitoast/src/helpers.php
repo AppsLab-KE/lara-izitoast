@@ -1,7 +1,12 @@
 <?php
-if (! function_exists('toast')){
-    function toast($message, $title, $type, $position = null){
+if (! function_exists('notify')){
+    function notify($message = null, $title = null, $type = null, $position = null, $icon = null){
         $toaster =  app('toast');
-        return $toaster->toast($message, $title, $type, $position);
+
+        if (! is_null($message)){
+            return $toaster->toast($message, $title, $type, $position);
+        }
+
+        return $toaster;
     }
 }
