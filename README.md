@@ -1,4 +1,7 @@
 # Lara-Izitoast : Laravel Notification Package
+
+![Demo Image](izitoast.png?raw=true "Demo Image")
+
 This is a laravel notification wrapper build with http://izitoast.marcelodolce.com javascript library.
 
 ## How to use this package
