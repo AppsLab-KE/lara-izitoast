@@ -7,19 +7,18 @@
  */
 
 return [
-    'titleColor' => 'blue',
-    'messageColor' => 'blue',
-    'titleSize' => '12',
-    'messageSize' => '12',
-    'titleLineHeight' => '72',
-    'messageLineHeight' => '72',
-    'theme' => 'black', //black, white
-    'color' => '',
-    'iconColor' => '',
+    'titleColor' => '',
+    'messageColor' => '',
+    'titleSize' => '38',
+    'messageSize' => '38',
+    'titleLineHeight' => '38',
+    'messageLineHeight' => '38',
+    'transitionIn' => 'flipInX',
+    'transitionOut' => 'flipOutX',
     'zindex' => null,
     'closeOnClick' => true,
     'timeout' => 5000,
     'drag' => true,
-    'position' => 'bottomRight', //bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter or center.
+    'position' => "bottomRight", //bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter or center.
     'progressBar' => true,
 ];

@@ -9,7 +9,7 @@
       "email": "marvin@appslab.co.ke"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "beta",
   "require": {},
   "autoload": {
     "psr-4": {
