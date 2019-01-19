@@ -1,11 +1,9 @@
-# Lara-Izitoast for Laravel Notification (Still under development)
-This is a simple laravel notification package. It is still under development.
+# Lara-Izitoast : Laravel Notification Package
+This is a laravel notification package build on top of http://izitoast.marcelodolce.com/.
 
 ## How to use this package
 
-**the guide might change later
-
-- Get the package via 
+- Get the package via composer
 ``` bash 
 composer require appslabke/lara-izitoast
 ```
@@ -21,9 +19,9 @@ If you are using Laravel 5.5 and above, the package will be auto-discovered by l
 
 ``` php artisan vendor:publish --provider=LaraIzitoast\LaraIzitoastServiceProvider```
 
-- This package is made on top of http://izitoast.marcelodolce.com
-You will have to add the Css and Js files.
-You can add by npm ``` npm install izitoast --save```
+- Add http://izitoast.marcelodolce.com CSS and JS files.
+
+Add by npm ``` npm install izitoast --save```
 
 - On your layout blade add the files
 
@@ -31,24 +29,41 @@ You can add by npm ``` npm install izitoast --save```
 
 ``` <script src="{{ asset('js/iziToast.js') }}"></script>```
 
-- Include the vendor file in Layout blade
+- Include the package vendor file in Layout blade
 
 ``` @include('vendor.lara-izitoast.toast')```
 
-- To make a toast 
+- Remember to add also font-awesome or Icomoon https://fontawesome.com/?from=io / https://icomoon.io/
 
-``` toast("Let's make a toast","Toast","info","topRight"); ```
+##Let's make a toast 
 
+- Quick way to make a toast (notification)
+
+```notify("Quick notification");```
+
+or
+
+``` notify("Let's make a toast","Toast","info","topRight"); ```
+- Notification Methods
+
+``` notify()->success("Message","Title","position", "icon); ```
+
+``` notify()->success("Success notification test","Success","topRight"); ```
+
+``` notify()->error("Error notification test","Error","topLeft"); ```
+        
+``` notify()->warning("Warning notification test","Warning","bottomLeft"); ```
+        
+``` notify()->info("Info notification test","Info","bottomRight");```
+        
    ``` return view('welcome');```
    
- - And we done, Remember this package is still under development you can contribute.
+ - And that's it.
 
 ## Contributing
 
 Lara-Izitoast is distributed under the MIT license.
 
-
-### Tests
-
-Coming soon
+## About Apps:Lab
+https://appslab.co.ke
 
