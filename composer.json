@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LaraIzitoast\\" : "src/"
+      "LaraIzitoast\\" : "lara-izitoast/src/"
     },
     "files": [
       "lara-izitoast/src/helpers.php"
