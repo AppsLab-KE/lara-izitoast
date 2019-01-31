@@ -24,11 +24,9 @@ If you are using Laravel 5.5 and above, the package will be auto-discovered by l
 
 - Publish Lara-Izitoast package 
 
-``` php artisan vendor:publish --provider=LaraIzitoast\LaraIzitoastServiceProvider```
+``` php artisan vendor:publish --provider="LaraIzitoast\LaraIzitoastServiceProvider"```
 
-- Add http://izitoast.marcelodolce.com CSS and JS files.
-
-Add by npm ``` npm install izitoast --save```
+- http://izitoast.marcelodolce.com CSS and JS files will be published in your public dir.
 
 - On your layout blade add the files
 
@@ -49,11 +47,11 @@ Add by npm ``` npm install izitoast --save```
     
 ```
 
-- Include the package vendor file in Layout blade
+- Include the package view file in Layout blade below the iziToast js
 
 ``` @include('vendor.lara-izitoast.toast')```
 
-- Remember to add also font-awesome or Icomoon https://fontawesome.com/?from=io / https://icomoon.io/
+- Remember to add also font-awesome or Icomoon https://fontawesome.com/?from=io / https://icomoon.io/ if you are going to use icons
 
 ## Let's make a toast 
 

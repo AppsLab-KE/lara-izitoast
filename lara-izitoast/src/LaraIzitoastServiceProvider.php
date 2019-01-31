@@ -19,6 +19,8 @@ class LaraIzitoastServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/config/lara-izitoast.php' => config_path('lara-izitoast.php'),
+            __DIR__.'/../assests/iziToast.css' => public_path('css/iziToast.css'),
+            __DIR__.'/../assests/iziToast.js' => public_path('js/iziToast.js'),
             __DIR__.'/../views' => base_path('resources/views/vendor/lara-izitoast')
         ]);
 
