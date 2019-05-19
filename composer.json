@@ -9,7 +9,7 @@
       "email": "marvin@appslab.co.ke"
     }
   ],
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.6"
   },
