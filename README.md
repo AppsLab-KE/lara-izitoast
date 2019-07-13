@@ -27,6 +27,7 @@ If you are using Laravel 5.5 and above, the package will be auto-discovered by l
 ``` php artisan vendor:publish --provider="LaraIzitoast\LaraIzitoastServiceProvider"```
 
 - http://izitoast.marcelodolce.com CSS and JS files will be published in your public dir.
+- This will also create a config file. You can change the notification size from config
 
 - On your layout blade add the files
 
