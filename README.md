@@ -1,6 +1,9 @@
 # Lara-Izitoast : Laravel Notification Package
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/appslabke/lara-izitoast.svg?style=flat-square)](https://packagist.org/packages/appslabke/lara-izitoast)
+[![Total Downloads](https://img.shields.io/packagist/dt/appslabke/lara-izitoast.svg?style=flat-square)](https://packagist.org/packages/appslabke/lara-izitoast)
 
 ![Demo Image](lara-izitoast/izitoast.png?raw=true "Demo Image")
+
 
 This is a laravel notification wrapper build with http://izitoast.marcelodolce.com javascript library.
 
